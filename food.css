@@ -1,0 +1,44 @@
+/*food delivery css*/
+ .section2{
+      height: 70vh;
+      position: relative;
+      padding: 10% 0 ;
+  }
+  .heading{
+    text-align: center;
+    margin-top: 50px;
+  }
+.h1{
+    font-size: 2.5em;
+    letter-spacing: 2px;
+
+}
+hr{
+
+    width: 10%;
+    margin: auto;
+    border: 1px solid red;
+    margin-top:30px
+}
+.p{
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.colu{
+display: flex;
+justify-content: center;
+margin:50px 30px;
+}
+.icon{
+    width: 300px;
+    font-size: 20px;
+    padding: 20px;
+    align-items: center;
+}
+h4{
+font-weight: 100;
+font-size: 1.5rem;
+}
+.cont{
+padding-top: 10px;
+}

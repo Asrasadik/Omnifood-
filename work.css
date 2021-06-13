@@ -1,0 +1,45 @@
+.section4{
+height: 100vh;
+background-color: #f4f4f4;
+}
+.phone{
+    height: 350px;
+padding-top: 4% ;
+margin-left: 30%;
+
+}
+.para{
+    font-size: 1.2rem;
+
+}
+.head_{
+    margin-top: 0;
+    padding-top: 80px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+
+}
+.content2{
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 30px;
+margin-left: 40px;
+}
+.main_step{
+    margin: 45px 0;
+}
+.steps{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    text-align: center;
+    width: 5%;
+    height: 5%;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}

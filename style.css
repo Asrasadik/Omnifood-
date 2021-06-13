@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-weight: 100;
+
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.2rem;
+    color: white;
+}
+.animate{
+    position: relative;
+    display: inline-block;
+}/*
+.animate:after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e67e22;
+  transform-origin: bottom right;
+  transition: transform 0.2s ease-out;
+}
+.animate:hover:after{
+    transform: scaleX(1);
+  transform-origin: bottom;
+}*/
+
+li{
+    padding: 20px;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
+.link:hover{
+    border-bottom:3px solid#e67e22;
+    transition: 0.2s;
+}
+.cntr{
+    color: white;
+    align-items: center;
+    margin-left: 7%;
+    top: 40%;
+    position: absolute;
+    display: inline-block
+}
+.line{
+    font-size:1.5rem;
+    line-height: 60px;
+    letter-spacing: 2px;
+    word-spacing:8px;
+ }
+.btn{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #e67e22;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.btn1{
+    background-color: #e67e22;
+    color: white;
+    margin-right: 20px;
+}
+.btn2{
+    background-color: transparent;
+    color: #e67e22;
+}
+.btn1:hover {
+    background-color: #cf721e
+  }
+  .btn2:hover {
+    background-color: #cf721e;
+    color: white;
+  }
+
